@@ -23,7 +23,6 @@
         If StartSeq = 2 Then
             xtrace_i("StartSeq = 2, installation was started")
             BtnStartInstall.Visible = False
-            BtnStartRun.Visible = False
             Timer1.Start()
         End If
 
