@@ -16,7 +16,7 @@
 
         Dim Content As String = "
 ""List existing""
-Get-AppxPackage *ZuneMusic*
+Get-AppxPackage *ZuneMusic* | select name
 ""Remove""
 Get-AppxPackage *ZuneMusic* | Remove-AppxPackage
 timeout /t 2
